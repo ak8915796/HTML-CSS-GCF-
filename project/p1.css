@@ -1,1 +1,97 @@
-/* abhi */
+abhi
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background:#fdeeed;
+        }
+
+        header{
+            background:#b22222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            margin-top:10px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-size:16px;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+            color: blue;
+            
+        }
+
+        .content{
+            /* height:100vh; */
+            justify-content:center;
+            padding-top:40px;
+            background:#ffffff;
+        }
+
+        .welcome{
+            background:rgb(253, 242, 242);
+            padding:25px;
+            width:100%;
+            text-align:left;
+            border-radius:20px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .welcome h2{
+            margin-bottom:10px;
+        }
+
+        .welcome p{
+            font-size:16px;
+        }
+        .popular{
+            background-color: rgb(204, 231, 115);
+            padding: 20px;
+            margin: 15px;
+            border-radius: 15px;
+            /* display: flex;
+            gap: 10px; */
+        }
+        .child{
+            background-color: #1a60d8;
+            height: 320px;
+            width:450px;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+            border-radius: 15px;
+
+            
+        }
+        .card{
+            display: flex;
+            gap: 10px;
+            padding: 25px;
+            justify-content: center;
+        }
+        table ,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        .menu{
+            background-color: rgb(241, 245, 245);
+            padding:30px;
+            margin: 30px;
+            border-radius: ;
+
+        }
+       
