@@ -1,0 +1,20 @@
+*{
+    margin: 150px;
+    padding: 100px;
+
+}
+.header{
+    display: flex;
+    padding: 15px ;
+    flex-direction: column;
+    background: black;
+
+
+}
+.nav{
+    margin-right: 100px;
+    justify-content: space-between;
+    margin: auto;
+    text-decoration: none;
+    background: white;
+}
