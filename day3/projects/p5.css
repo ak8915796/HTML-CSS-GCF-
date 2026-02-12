@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background:url(https://wallpapers.com/images/hd/coding-background-5z97ezjr9j4mq9be.jpg);
+    color: white;
+    min-height: 100vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #6c63ff;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #6c63ff;
+}
+
+.btn-nav {
+    background: linear-gradient(45deg, #6c63ff, #8b5cf6);
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: white !important;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.hero h1 span {
+    color: #6c63ff;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    margin-top: 40px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 14px 28px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #6c63ff, #8b5cf6);
+    color: white;
+}
+
+.btn-primary:hover {
+    opacity: 0.85;
+}
+
+.btn-secondary {
+    background: #1a1f3c;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.btn-secondary:hover {
+    background: #242a52;
+}
