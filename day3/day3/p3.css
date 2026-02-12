@@ -1,20 +1,101 @@
 *{
-    margin: 150px;
-    padding: 100px;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-.header{
-    display: flex;
-    padding: 15px ;
-    flex-direction: column;
+
+.header {
     background: black;
-
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
 
 }
-.nav{
-    margin-right: 100px;
-    justify-content: space-between;
-    margin: auto;
+
+.nav a {
+    color: white;
     text-decoration: none;
-    background: white;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4zI7_3ceEf7zPKpMwnbTSOIpVogREC69pitqZh4xw5rGIoJ53Gioe7M&s'); 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* UNITS SECTION */
+.units {
+    padding: 20px;
+}
+
+.box {
+    color: white;
+    padding: 10px;
+    
+}
+
+.box1 {
+    background: purple;
+    width: 50%;
+}
+
+.box2 {
+    background: teal;
+    height: 40vh;
+}
+.boss{
+    padding: 30px;
+    margin: 10px o;
+    border: 3px solid black;
+    background-color: lightsalmon;
+}
+.felx{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.item{
+    flex: 1;
+    background: coral;
+    padding: 20px;
+   
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    gap: 10px;
+}
+.g{
+    background: lightpink;
+    padding:  10px 30px;
+}
+.card{
+    display: flex;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }

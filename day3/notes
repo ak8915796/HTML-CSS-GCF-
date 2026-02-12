@@ -1,1 +1,49 @@
-<p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Responsive Master Lab</title>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h1 class="logo">CSS Responsive Master Lab</h1>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <h2>Learn Responsive Web Design</h2>
+        <p>Flexbox • Grid • Media Queries • Layout</p>
+        <button class="btn">Get Started</button>
+    </div>
+</section>
+
+
+<!-- UNITS SECTION -->
+<section class="units">
+    <h2>Units (%, vh, vw, rem)</h2>
+
+    <div class="box box1">50% width</div>
+    <div class="box box2">40vh height</div>
+</section>
+
+</body>
+</html>
