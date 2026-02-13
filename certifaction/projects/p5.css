@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background:url(https://wallpapers.com/images/hd/coding-background-5z97ezjr9j4mq9be.jpg);
+    background: linear-gradient(135deg, #0a0f2c, #050b1f);
     color: white;
     min-height: 100vh;
 }
@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(226, 7, 7, 0.836);
 }
 
 .logo {
@@ -33,23 +33,21 @@ header {
 nav a {
     margin-left: 30px;
     text-decoration: none;
-    color: #ddd;
+    color: #840a0a;
     font-size: 16px;
     transition: 0.3s;
 }
 
 nav a:hover {
     color: #6c63ff;
-}
+} 
 
-.btn-nav {
+.na {
     background: linear-gradient(45deg, #6c63ff, #8b5cf6);
     padding: 8px 18px;
     border-radius: 20px;
     color: white !important;
-}
-
-/* Hero Section */
+} 
 .hero {
     text-align: center;
     padding: 120px 20px;
@@ -78,8 +76,8 @@ nav a:hover {
     margin-top: 40px;
 }
 
-.btn-primary,
-.btn-secondary {
+.primary,
+.secondary {
     display: inline-block;
     padding: 14px 28px;
     margin: 10px;
@@ -89,21 +87,26 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.btn-primary {
+.primary {
     background: linear-gradient(45deg, #6c63ff, #8b5cf6);
     color: white;
 }
 
-.btn-primary:hover {
+.primary:hover {
     opacity: 0.85;
 }
 
-.btn-secondary {
+.secondary {
     background: #1a1f3c;
     color: white;
     border: 1px solid rgba(255,255,255,0.1);
 }
 
-.btn-secondary:hover {
+.secondary:hover {
     background: #242a52;
+}
+.list {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
 }
