@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dcd6d6;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.card{
+    background: white;
+    border: 2px inset #ddd;
+    /* border: 1px; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 5px 9px 12px rgba(0,0, 0, 0.1);
+
+}
+.transtion-basic{
+    background-color: white;
+    width: 200px;
+    transition: 200px;
+    transition: all 0.5s;
+
+}
+.transtion-basic:hover{
+    background-color: #ff6b6b;
+    color: white;
+    width: 230px;
+}
+.transtion-basic:active{
+    background-color: yellow;
+    width: 200px;
+    margin: 30px;
+    padding: 150px;
+
+}
+.tarnstion-timing{
+    background-color: white;
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) background-color black;
+
+}
+.tarnstion-timing:hover{
+    transform: translateY(-30px);
+}
+.tarnstion-transform{
+    transition: transform 0.4s ease-in-out, background-color 0.4s;
+}
+.tarnstion-transform:hover{
+    background-color: #4ecdca;
+    color: white;
+    transform: scale(10) rotate(360deg);
+}
+.animation-spin {
+    
+    animation-name: spin-around;
+    animation-duration: 15s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+}
+@keyframes spin-around {
+    from { transform: rotate(-10deg); }
+    to   { transform: rotate(360deg); }
+}
+.animation-color {
+    animation: rainbow-shift 4s infinite;
+}
+.animation-color {
+    animation: rainbow-shift 4s infinite;
+}
+
+@keyframes rainbow-shift {
+    0%   { background-color: white; border-color: #ddd; border: 3px dotted black; }
+    50%  { background-color: #ffe66d; border: orange; transform: scale(0.9) rotate(360deg); }
+    100% { background-color: white; border-color: #ddd;  width: 100px;height: 100px;}
+
+}
+.animation-bounce {
+    justify-content: flex-end; 
+    padding-bottom: 20px;
+}
+.ball {
+    width: 40px;
+    height: 40px;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+   
+    animation: bounce-ball 0.5s ease-in infinite alternate;
+    
+}
+@keyframes bounce-ball {
+    0% { transform: translateY(0); } 
+    25% { transform: translatex(20); } 
+    50% { transform: translatex(30); } 
+    100% { transform: translateY(-100px); } 
+}
+.animation-fill:hover {
+    animation: slide-right 1s forwards; 
+}
+
+@keyframes slide-right {
+    0% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(50px); opacity: 0.5; background-color: #eee; }
+}
+
+
